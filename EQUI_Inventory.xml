@@ -1053,32 +1053,7 @@
     </TextColor>
     <NoWrap>true</NoWrap>
     <TooltipReference>Maximum Weight</TooltipReference>
-  </Label>
-  <Button item="IW_UpgradeCharacter">
-    <ScreenID>IW_UpgradeCharacter</ScreenID>
-    <RelativePosition>true</RelativePosition>
-    <Location>
-      <X>10</X>
-      <Y>323</Y>
-    </Location>
-    <Size>
-      <CX>62</CX>
-      <CY>20</CY>
-    </Size>
-    <Text>Upgrade</Text>
-    <TextColor>
-      <R>255</R>
-      <G>233</G>
-      <B>129</B>
-    </TextColor>
-    <BackgroundTextureTint>
-      <R>0</R>
-      <G>255</G>
-      <B>0</B>
-    </BackgroundTextureTint>
-    <TooltipReference>Upgrade selected character to a fully equipped level 85 character.</TooltipReference>
-    <Template>BDT_Normal</Template>
-  </Button>
+  </Label>  
   <!-- Tab -->
   <Page item="IW_InvPage">
     <ScreenID>InvPage</ScreenID>
@@ -1148,7 +1123,6 @@
     <Pieces>IW_CurrentWeight</Pieces>
     <Pieces>IW_WeightNumber</Pieces>
     <Pieces>IW_MaxWeight</Pieces>
-    <Pieces>IW_UpgradeCharacter</Pieces>
     <Pieces>IW_Achievements</Pieces>
   </Page>
   <!-- Attributes Tab -->
