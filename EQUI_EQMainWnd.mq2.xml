@@ -349,6 +349,129 @@
     <AlignRight>false</AlignRight>
     <AlignLeft>false</AlignLeft>
   </Label>
+  <Label item="Target_DistanceLabel">
+    <ScreenID>TargetDistance</ScreenID>
+    <EQType>2003</EQType>
+    <RelativePosition>true</RelativePosition>
+    <Font>2</Font>
+    <Location>
+      <X>155</X>
+      <Y>15</Y>
+    </Location>
+    <Size>
+      <CX>33</CX>
+      <CY>14</CY>
+    </Size>
+    <Text>0</Text>
+    <TextColor>
+      <R>115</R>
+      <G>215</G>
+      <B>115</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>false</AlignCenter>
+    <AlignRight>false</AlignRight>
+    <AlignLeft>false</AlignLeft>
+  </Label>
+  <Label item="Me_StateLabel">
+    <ScreenID>StateLabel</ScreenID>
+    <EQType>9999</EQType>
+    <TooltipReference>${State}</TooltipReference>
+    <RelativePosition>true</RelativePosition>
+    <Font>2</Font>
+    <Location>
+      <X>155</X>
+      <Y>4</Y>
+    </Location>
+    <Size>
+      <CX>64</CX>
+      <CY>15</CY>
+    </Size>
+    <Text>0</Text>
+    <TextColor>
+      <R>15</R>
+      <G>115</G>
+      <B>15</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>false</AlignCenter>
+    <AlignRight>false</AlignRight>
+    <AlignLeft>false</AlignLeft>
+  </Label>
+  <Label item="Me_CombatStateLabel">
+    <ScreenID>CombatStateLabel</ScreenID>
+    <EQType>9999</EQType>
+    <TooltipReference>${NetBots[${Me.Name}].CombatState}</TooltipReference>
+    <RelativePosition>true</RelativePosition>
+    <Font>2</Font>
+    <Location>
+      <X>5</X>
+      <Y>4</Y>
+    </Location>
+    <Size>
+      <CX>15</CX>
+      <CY>14</CY>
+    </Size>
+    <Text>0</Text>
+    <TextColor>
+      <R>115</R>
+      <G>115</G>
+      <B>115</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>false</AlignCenter>
+    <AlignRight>false</AlignRight>
+    <AlignLeft>false</AlignLeft>
+  </Label>
+  <Label item="Target_LevelLabel">
+    <ScreenID>TargetLevel</ScreenID>
+    <EQType>2000</EQType>
+    <RelativePosition>true</RelativePosition>
+    <Font>2</Font>
+    <Location>
+      <X>5</X>
+      <Y>18</Y>
+    </Location>
+    <Size>
+      <CX>15</CX>
+      <CY>14</CY>
+    </Size>
+    <Text>0</Text>
+    <TextColor>
+      <R>115</R>
+      <G>115</G>
+      <B>115</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>false</AlignCenter>
+    <AlignRight>false</AlignRight>
+    <AlignLeft>false</AlignLeft>
+  </Label>
+  <Label item="TargetOfTarget_LevelLabel">
+    <ScreenID>TargetOfTargetLevel</ScreenID>
+    <EQType>9999</EQType>
+    <TooltipReference>${Me.TargetOfTarget.Level}</TooltipReference>
+    <RelativePosition>true</RelativePosition>
+    <Font>2</Font>
+    <Location>
+      <X>5</X>
+      <Y>38</Y>
+    </Location>
+    <Size>
+      <CX>15</CX>
+      <CY>14</CY>
+    </Size>
+    <Text>0</Text>
+    <TextColor>
+      <R>115</R>
+      <G>115</G>
+      <B>115</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>false</AlignCenter>
+    <AlignRight>false</AlignRight>
+    <AlignLeft>false</AlignLeft>
+  </Label>
   <Label item="Target_HPPercLabel2">
     <ScreenID>HPPercLabel2</ScreenID>
     <RelativePosition>true</RelativePosition>
@@ -770,8 +893,13 @@
     <Pieces>TGT_Target_Name</Pieces>
     <Pieces>DiscTimeGauge</Pieces>
     <Pieces>CastingGauge</Pieces>
+    <Pieces>Me_CombatStateLabel</Pieces>
+    <Pieces>Me_StateLabel</Pieces>
     <Pieces>Target_HPLabel2</Pieces>
+    <Pieces>Target_DistanceLabel</Pieces>
+    <Pieces>Target_LevelLabel</Pieces>
     <Pieces>Target_HPPercLabel2</Pieces>
+    <Pieces>TargetOfTarget_LevelLabel</Pieces>
     <Pieces>EQM_TargetOfTarget_HP</Pieces>
     <Pieces>EQM_TargetOfTarget_HPLabel</Pieces>
   </Screen>
