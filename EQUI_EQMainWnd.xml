@@ -676,7 +676,7 @@
     <ScreenID>EQButton</ScreenID>
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>230</X>
+      <X>160</X>
       <Y>46</Y>
     </Location>
     <Size>
@@ -706,7 +706,7 @@
     <ScreenID>SCButton</ScreenID>
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>230</X>
+      <X>160</X>
       <Y>8</Y>
     </Location>
     <Size>

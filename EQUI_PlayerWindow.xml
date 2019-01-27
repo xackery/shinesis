@@ -1827,8 +1827,7 @@
     <RelativePosition>true</RelativePosition>
     <Style_Transparent>false</Style_Transparent>
     <Style_Checkbox>false</Style_Checkbox>
-    <ButtonDrawTemplate>
-    </ButtonDrawTemplate>
+    <ButtonDrawTemplate />
     <DecalSize>
       <CX>15</CX>
       <CY>15</CY>

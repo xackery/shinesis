@@ -323,25 +323,25 @@
     </TextColor>
     <NoWrap>true</NoWrap>
   </Label>
-  <Label item = "IDW_ItemInfo13">
-	<ScreenID>IDW_ItemInfo13</ScreenID>
-	<RelativePosition>true</RelativePosition>
-	<Font>1</Font>
-	<Location>
-		<X>60</X>
-		<Y>134</Y>
-	</Location>
-	<Size>
-		<CX>600</CX>
-		<CY>15</CY>
-	</Size>
-	<Text />
-	<TextColor>
-		<R>255</R>
-		<G>255</G>
-		<B>255</B>
-	</TextColor>
-	<NoWrap>true</NoWrap>
+  <Label item="IDW_ItemInfo13">
+    <ScreenID>IDW_ItemInfo13</ScreenID>
+    <RelativePosition>true</RelativePosition>
+    <Font>1</Font>
+    <Location>
+      <X>60</X>
+      <Y>134</Y>
+    </Location>
+    <Size>
+      <CX>600</CX>
+      <CY>15</CY>
+    </Size>
+    <Text />
+    <TextColor>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
   </Label>
   <Label item="IDW_Row1Col1Stat">
     <ScreenID>IDW_Row1Col1Stat</ScreenID>
@@ -4166,9 +4166,9 @@
     <Pieces>IDW_ItemInfo8</Pieces>
     <Pieces>IDW_ItemInfo9</Pieces>
     <Pieces>IDW_ItemInfo10</Pieces>
-	<Pieces>IDW_ItemInfo11</Pieces>
-	<Pieces>IDW_ItemInfo12</Pieces>
-	<Pieces>IDW_ItemInfo13</Pieces>
+    <Pieces>IDW_ItemInfo11</Pieces>
+    <Pieces>IDW_ItemInfo12</Pieces>
+    <Pieces>IDW_ItemInfo13</Pieces>
     <Pieces>IDW_ModButtonLabel</Pieces>
     <Pieces>IDW_ConvertButton</Pieces>
     <Pieces>IDW_ConvertButtonLabel</Pieces>
